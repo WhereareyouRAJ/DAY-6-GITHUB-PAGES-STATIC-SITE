@@ -1,26 +1,58 @@
-# Raj's Aesthetic Static Website
+# 🌐 Static Website Hosting with GitHub Pages
 
-This is a personal static website showcasing my DevOps internship experience, built using HTML and CSS. Hosted on GitHub Pages for easy access and showcasing.
+Welcome to **Task 6** of my DevOps journey: Hosting a static website using **GitHub Pages**.
 
-## Features
+## 📄 Objective
 
-- **Aesthetic Glassmorphism Design**: Modern design with a smooth background gradient and glassy card effect.
-- **Responsive Layout**: Looks great on both mobile and desktop.
-- **Interactive Button**: "Download Resume" button with glow effect.
-- **Social Media Links**: LinkedIn & GitHub icons for quick access.
+The goal is to deploy a simple, visually appealing HTML + CSS website using GitHub Pages.
 
-## Tech Stack
+---
 
-- **HTML5**: Structure of the webpage
-- **CSS3**: For styling, animation, and layout
-- **GitHub Pages**: Hosting
+## 🚀 Live Website
 
-## How to Run Locally
+👉 [Visit the Live Site Here](https://whereareyouraj.github.io/DAY-6-GITHUB-PAGES-STATIC-SITE/)
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/WhereareyouRAJ/DAY-6-GITHUB-PAGES-STATIC-SITE.git
+---
 
-2. Open the folder in your code editor and go to the index.html file.
+## 📁 Folder Structure
 
-3. Right-click and select "Open with Live Server" or simply open index.html in your browser.
+```
+static-website/
+├── index.html
+├── style.css
+└── README.md
+```
+
+---
+
+## 🎨 Tech Stack Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and enhancing the visual appeal.
+- **Git & GitHub**: For version control and collaboration.
+- **GitHub Pages**: For hosting the static website.
+
+---
+
+## 🖼️ Final Output Screenshot
+
+![Final Output](<Screenshot 2025-04-15 134314.png>)
+
+---
+
+## 📌 Deployment Steps
+
+1. **Create a GitHub Repository**: Set up a new repository for the project.
+2. **Push Files**: Upload `index.html` and `style.css` to the repository.
+3. **Enable GitHub Pages**:
+    - Navigate to: `Settings → Pages → Source`.
+    - Select `main branch` and set the folder to `/root`.
+4. **Access the Live Link**: GitHub generates a live website link.
+5. **Enhance with CSS**: Customize the website with modern CSS for a polished look.
+
+---
+
+## 🙋‍♂️ About Me
+
+Hi! I’m **Raj**, currently a DevOps Intern at **Elevate Labs**.  
+I’m passionate about learning and building every day to become the best version of myself 🚀.
