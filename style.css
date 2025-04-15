@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #6a0dad, #1e90ff, #ff5e78);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(14px);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 50px 70px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease;
+  }
+  
+  .glass-card:hover {
+    transform: scale(1.02);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  
+  .glass-card h1 {
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+  }
+  
+  .glass-card p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #ffd700;
+    font-weight: 600;
+  }
+  
+  .btn-glow {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 25px;
+    background: #ff00cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #ff00cc;
+    transition: 0.3s ease;
+  }
+  
+  .btn-glow:hover {
+    box-shadow: 0 0 30px #ff00cc, 0 0 40px #ff99dd;
+    transform: scale(1.05);
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 1.6rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffd700;
+  }
+  
